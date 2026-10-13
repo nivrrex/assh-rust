@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "login",
+    "--help"
+  ],
+  "rc": 0,
+  "stdout": "NAME:\n   <BIN> login - login server or exec remote server command\n\nUSAGE:\n   <BIN> login [command options] [arguments...]\n\nOPTIONS:\n   -H value  server host\n   -p value  bind address port (default: 0)\n   -l value  login name\n   -P value  login password\n   -k value  automatic login public key\n   \n",
+  "stderr": "",
+  "db_before": "{}",
+  "db_after": "{}",
+  "db_changed": false
+}

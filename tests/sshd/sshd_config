@@ -1,0 +1,11 @@
+Port 22
+Protocol 2
+HostKey /etc/ssh/hostkeys/ssh_host_rsa_key
+HostKey /etc/ssh/hostkeys/ssh_host_ed25519_key
+PermitRootLogin no
+PasswordAuthentication yes
+PubkeyAuthentication yes
+PermitEmptyPasswords no
+UsePAM no
+PrintMotd no
+Subsystem sftp /usr/lib/openssh/sftp-server

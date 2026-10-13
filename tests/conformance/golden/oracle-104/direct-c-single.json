@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "-H",
+    "127.0.0.1",
+    "-p",
+    "2201",
+    "-l",
+    "tuser",
+    "-P",
+    "Pa+ss_w0rd",
+    "-c",
+    "echo D1"
+  ],
+  "rc": 0,
+  "stdout": "> connection: tuser@127.0.0.1:2201 (password: yes) \n\n> Result (tuser@127.0.0.1:2201 -> 'tuser@127.0.0.1:2201'): \nD1\n\n>  time cost: <T>\n",
+  "stderr": "",
+  "db_before": "{}",
+  "db_after": "{}",
+  "db_changed": false
+}

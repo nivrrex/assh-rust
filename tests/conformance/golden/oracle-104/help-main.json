@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "--help"
+  ],
+  "rc": 0,
+  "stdout": "NAME:\n   Assh - An SSH Client\n\nUSAGE:\n   <BIN> [global options] command [command options] [arguments...]\n\nVERSION:\n   v1.0.4-20230322\n\nCOMMANDS:\n   version    \n   account    Set the data crypto key (password)\n   ls         Print all servers list\n   search     (New) Search the server name\n   info       Print the server information\n   set        Add/Modify the server\n   mv         Move/Rename Server Name\n   rm         Remove Server\n   login      login server or exec remote server command\n   bc         batch remote command execution\n   push       sftp push file to remote server\n   pull       sftp pull file from remote server\n   keygen     ssh keygen\n   sync       synchronized data to the cloud storage\n   export     \n   import     \n   upgrade    \n   ping       \n   proxy      assh proxy -d local port -i local hostname\n   hostproxy  assh prots -h remote host -p remote port -d local port -i local host [hostname]\n   help, h    Shows a list of commands or help for one command\n\nGLOBAL OPTIONS:\n   -H value       server host\n   -p value       bind address port (default: 0)\n   -l value       login name\n   -P value       login password\n   -k value       automatic login public key\n   -c value       run command\n   --log value    log file path\n   --llv value    log level\n   --help, -h     show help\n   --version, -v  print the version\n",
+  "stderr": "",
+  "db_before": "{}",
+  "db_after": "{}",
+  "db_changed": false
+}

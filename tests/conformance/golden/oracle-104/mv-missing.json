@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "mv",
+    "nope",
+    "x"
+  ],
+  "rc": 2,
+  "stdout": "",
+  "stderr": "panic: runtime error: invalid memory address or nil pointer dereference\n[signal SIGSEGV: segmentation violation code=0xADDR addr=0xADDR pc=0xADDR]\n\ngoroutine 1 [running]:\nassh/asshc.(*Assh).Move(0xADDR?, {0xADDR, 0xADDR}, {0xADDR, 0xADDR})\n\t/Users/kee/projects/golang/src/assh/asshc/assh.go:135 +0xADDR\nassh/cmd.MoveServer(0xADDR?)\n\t/Users/kee/projects/golang/src/assh/cmd/server.go:153 +0xADDR\ngithub.com/urfave/cli.HandleAction({0xADDR?, 0xADDR?}, 0xADDR?)\n\t/Users/kee/projects/golang/pkg/mod/github.com/urfave/cli@v1.22.2/app.go:523 +0xADDR\ngithub.com/urfave/cli.Command.Run({{0xADDR, 0xADDR}, {0xADDR, 0xADDR}, {0xADDR, 0xADDR, 0xADDR}, {0xADDR, 0xADDR}, {0xADDR, ...}, ...}, ...)\n\t/Users/kee/projects/golang/pkg/mod/github.com/urfave/cli@v1.22.2/command.go:174 +0xADDR\ngithub.com/urfave/cli.(*App).Run(0xADDR, {0xADDR, 0xADDR, 0xADDR})\n\t/Users/kee/projects/golang/pkg/mod/github.com/urfave/cli@v1.22.2/app.go:276 +0xADDR\nassh/cmd.(*App).Run(0xADDR)\n\t/Users/kee/projects/golang/src/assh/cmd/command.go:217 +0xADDR\nmain.main()\n\t/Users/kee/projects/golang/src/assh/main.go:10 +0xADDR\n",
+  "db_before": "{\"\": {\"srv-a\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"srv-a\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2201, \"remark\": \"a\", \"user\": \"tuser\"}, \"srv-b\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"srv-b\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2202, \"remark\": \"b\", \"user\": \"tuser\"}}, \"grp\": {\"g1\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"g1\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2201, \"remark\": \"g1\", \"user\": \"tuser\"}, \"g2\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"g2\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2202, \"remark\": \"g2\", \"user\": \"tuser\"}}}",
+  "db_after": "{\"\": {\"srv-a\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"srv-a\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2201, \"remark\": \"a\", \"user\": \"tuser\"}, \"srv-b\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"srv-b\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2202, \"remark\": \"b\", \"user\": \"tuser\"}}, \"grp\": {\"g1\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"g1\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2201, \"remark\": \"g1\", \"user\": \"tuser\"}, \"g2\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"g2\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2202, \"remark\": \"g2\", \"user\": \"tuser\"}}}",
+  "db_changed": false
+}

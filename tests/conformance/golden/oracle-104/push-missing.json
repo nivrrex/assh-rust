@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "push",
+    "srv-pass",
+    "/no/such/file"
+  ],
+  "rc": 0,
+  "stdout": "0: '/no/such/file' -> tuser@127.0.0.1:file\n time cost: <T> \n> SFTP PUSH time cost: <T>\n",
+  "stderr": "",
+  "db_before": "{\"\": {\"srv-pass\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"srv-pass\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2201, \"remark\": \"passwd auth\", \"user\": \"tuser\"}}}",
+  "db_after": "{\"\": {\"srv-pass\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"srv-pass\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2201, \"remark\": \"passwd auth\", \"user\": \"tuser\"}}}",
+  "db_changed": false
+}

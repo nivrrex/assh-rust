@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "export",
+    "/tmp/cf-export-e.yml"
+  ],
+  "rc": 0,
+  "stdout": "",
+  "stderr": "",
+  "db_before": "{}",
+  "db_after": "{}",
+  "db_changed": false
+}

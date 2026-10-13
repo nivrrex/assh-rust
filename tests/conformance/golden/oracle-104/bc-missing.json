@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "bc",
+    "nope",
+    "echo X"
+  ],
+  "rc": 0,
+  "stdout": "> BATCH COMMAND:  time cost: <T>\n",
+  "stderr": "",
+  "db_before": "{\"\": {\"srv-a\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"srv-a\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2201, \"remark\": \"a\", \"user\": \"tuser\"}, \"srv-b\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"srv-b\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2202, \"remark\": \"b\", \"user\": \"tuser\"}}, \"grp\": {\"g1\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"g1\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2201, \"remark\": \"g1\", \"user\": \"tuser\"}, \"g2\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"g2\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2202, \"remark\": \"g2\", \"user\": \"tuser\"}}}",
+  "db_after": "{\"\": {\"srv-a\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"srv-a\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2201, \"remark\": \"a\", \"user\": \"tuser\"}, \"srv-b\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"srv-b\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2202, \"remark\": \"b\", \"user\": \"tuser\"}}, \"grp\": {\"g1\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"g1\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2201, \"remark\": \"g1\", \"user\": \"tuser\"}, \"g2\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"g2\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2202, \"remark\": \"g2\", \"user\": \"tuser\"}}}",
+  "db_changed": false
+}

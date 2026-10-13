@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "set",
+    "srv-pass",
+    "-p",
+    "0",
+    "-R",
+    "p0",
+    "-f"
+  ],
+  "rc": 0,
+  "stdout": "Server [srv-pass] success.\n====================================================================================================\n++++++++++++++++++++++++++++++++++++ Server Information Detail +++++++++++++++++++++++++++++++++++++\n----------------------------------------------------------------------------------------------------\n         Server Name:   srv-pass\n         Server Host:   127.0.0.1\n         Server Port:   2201\n         Server User:   tuser\n     Server Password:   Pa+ss_w0rd\n       Server PemKey:   \n       Server Remark:   p0\n====================================================================================================\n",
+  "stderr": "",
+  "db_before": "{\"\": {\"srv-pass\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"srv-pass\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2201, \"remark\": \"passwd auth\", \"user\": \"tuser\"}}}",
+  "db_after": "{\"\": {\"srv-pass\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"srv-pass\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2201, \"remark\": \"p0\", \"user\": \"tuser\"}}}",
+  "db_changed": true
+}

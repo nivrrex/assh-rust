@@ -1,0 +1,20 @@
+# 构建产物
+rust/target/
+# 真实库/真实数据（严禁入库）
+artifacts/real-db-backup/
+fixtures/fixture-real/
+*.bak-*
+# 大体积可下载/可再生资产
+artifacts/upstream/
+oracles/*/assh
+keys/
+# 临时
+tmp/
+**/__pycache__/
+*.pyc
+fixtures/*/.assh/
+tests/sshd/hostkeys*/
+AGENTS.md
+.pi-cg-enabled
+internal-notes/
+artifacts/

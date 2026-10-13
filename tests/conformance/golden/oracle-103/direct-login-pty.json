@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "-H",
+    "127.0.0.1",
+    "-p",
+    "2201",
+    "-l",
+    "tuser",
+    "-P",
+    "Pa+ss_w0rd"
+  ],
+  "rc": 0,
+  "stdout": "> connection: tuser@127.0.0.1:2201 (password: yes) \nLast login: <TS>\n\u001b[?2004h\u001b]0;tuser@<HOST>: ~\u0007tuser@<HOST>:~$ echo DPTY\n\u001b[?2004l\rDPTY\n\u001b[?2004h\u001b]0;tuser@<HOST>: ~\u0007tuser@<HOST>:~$ exit\n\u001b[?2004l\rlogout\n>  time cost: <T>\n",
+  "stderr": "",
+  "db_before": "{}",
+  "db_after": "{}",
+  "db_changed": false
+}

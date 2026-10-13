@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "import",
+    "/tmp/cf-import.yml",
+    "-f"
+  ],
+  "rc": 0,
+  "stdout": "import <  imp1\nimported:  imp1\n",
+  "stderr": "",
+  "db_before": "{}",
+  "db_after": "{\"\": {\"imp1\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"imp1\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2201, \"remark\": \"imported\", \"user\": \"tuser\"}}}",
+  "db_changed": true
+}
