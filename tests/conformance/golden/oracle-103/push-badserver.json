@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "push",
+    "ghost",
+    "/etc/hostname"
+  ],
+  "rc": 0,
+  "stdout": "root@ghost's password: > SFTP PUSH time cost: <T>\n",
+  "stderr": "",
+  "db_before": "{}",
+  "db_after": "{}",
+  "db_changed": false
+}

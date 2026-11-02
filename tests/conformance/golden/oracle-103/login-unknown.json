@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "login",
+    "no-such-server"
+  ],
+  "rc": 0,
+  "stdout": "> connection: root@no-such-server:22 (password: no) \n>  time cost: <T>\n",
+  "stderr": "",
+  "db_before": "{}",
+  "db_after": "{}",
+  "db_changed": false
+}

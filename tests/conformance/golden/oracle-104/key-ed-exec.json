@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "srv-ed",
+    "-c",
+    "echo EDOK"
+  ],
+  "rc": 0,
+  "stdout": "> connection: tuser@127.0.0.1:2201 (pemKey: yes) \n\n> Result (srv-ed -> 'tuser@127.0.0.1:2201'): \nEDOK\n\n>  time cost: <T>\n",
+  "stderr": "",
+  "db_before": "{\"\": {\"srv-ed\": {\"host\": \"127.0.0.1\", \"key\": \"/home/asshtest/.assh/data/srv-ed/ed25519_nopass\", \"name\": \"srv-ed\", \"options\": null, \"password\": \"\", \"port\": 2201, \"remark\": \"ed nopass\", \"user\": \"tuser\"}, \"srv-key\": {\"host\": \"127.0.0.1\", \"key\": \"/home/asshtest/.assh/data/srv-key/rsa_nopass\", \"name\": \"srv-key\", \"options\": null, \"password\": \"\", \"port\": 2201, \"remark\": \"key nopass\", \"user\": \"tuser\"}}}",
+  "db_after": "{\"\": {\"srv-ed\": {\"host\": \"127.0.0.1\", \"key\": \"/home/asshtest/.assh/data/srv-ed/ed25519_nopass\", \"name\": \"srv-ed\", \"options\": null, \"password\": \"\", \"port\": 2201, \"remark\": \"ed nopass\", \"user\": \"tuser\"}, \"srv-key\": {\"host\": \"127.0.0.1\", \"key\": \"/home/asshtest/.assh/data/srv-key/rsa_nopass\", \"name\": \"srv-key\", \"options\": null, \"password\": \"\", \"port\": 2201, \"remark\": \"key nopass\", \"user\": \"tuser\"}}}",
+  "db_changed": false
+}

@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "set",
+    "srv-pass",
+    "-H",
+    "127.0.0.1",
+    "-p",
+    "2202",
+    "-l",
+    "tuser",
+    "-P",
+    "Pa+ss_w0rd",
+    "-R",
+    "overwritten",
+    "-f"
+  ],
+  "rc": 0,
+  "stdout": "Server [srv-pass] success.\n====================================================================================================\n++++++++++++++++++++++++++++++++++++ Server Information Detail +++++++++++++++++++++++++++++++++++++\n----------------------------------------------------------------------------------------------------\n         Server Name:   srv-pass\n         Server Host:   127.0.0.1\n         Server Port:   2202\n         Server User:   tuser\n     Server Password:   Pa+ss_w0rd\n       Server PemKey:   \n       Server Remark:   overwritten\n====================================================================================================\n",
+  "stderr": "",
+  "db_before": "{\"\": {\"srv-pass\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"srv-pass\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2201, \"remark\": \"passwd auth\", \"user\": \"tuser\"}}}",
+  "db_after": "{\"\": {\"srv-pass\": {\"host\": \"127.0.0.1\", \"key\": \"\", \"name\": \"srv-pass\", \"options\": null, \"password\": \"Pa+ss_w0rd\", \"port\": 2202, \"remark\": \"overwritten\", \"user\": \"tuser\"}}}",
+  "db_changed": true
+}

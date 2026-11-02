@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "version"
+  ],
+  "rc": 0,
+  "stdout": "v1.0.3-20200328\n",
+  "stderr": "",
+  "db_before": "{}",
+  "db_after": "{}",
+  "db_changed": false
+}

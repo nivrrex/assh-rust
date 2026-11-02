@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "srv-edp",
+    "-c",
+    "echo EDPOK"
+  ],
+  "rc": 0,
+  "stdout": "> connection: tuser@127.0.0.1:2201 (pemKey: yes) \n\n> Result (srv-edp -> 'tuser@127.0.0.1:2201'): \nEDPOK\n\n>  time cost: <T>\n",
+  "stderr": "",
+  "db_before": "{\"\": {\"srv-edp\": {\"host\": \"127.0.0.1\", \"key\": \"/home/asshtest/.assh/data/srv-edp/ed25519_pass\", \"name\": \"srv-edp\", \"options\": null, \"password\": \"keypass+_123\", \"port\": 2201, \"remark\": \"ed with pass\", \"user\": \"tuser\"}, \"srv-keyp\": {\"host\": \"127.0.0.1\", \"key\": \"/home/asshtest/.assh/data/srv-keyp/rsa_pass\", \"name\": \"srv-keyp\", \"options\": null, \"password\": \"keypass+_123\", \"port\": 2201, \"remark\": \"key with pass\", \"user\": \"tuser\"}}}",
+  "db_after": "{\"\": {\"srv-edp\": {\"host\": \"127.0.0.1\", \"key\": \"/home/asshtest/.assh/data/srv-edp/ed25519_pass\", \"name\": \"srv-edp\", \"options\": null, \"password\": \"keypass+_123\", \"port\": 2201, \"remark\": \"ed with pass\", \"user\": \"tuser\"}, \"srv-keyp\": {\"host\": \"127.0.0.1\", \"key\": \"/home/asshtest/.assh/data/srv-keyp/rsa_pass\", \"name\": \"srv-keyp\", \"options\": null, \"password\": \"keypass+_123\", \"port\": 2201, \"remark\": \"key with pass\", \"user\": \"tuser\"}}}",
+  "db_changed": false
+}
